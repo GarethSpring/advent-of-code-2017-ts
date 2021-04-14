@@ -9,8 +9,7 @@ function readInput() : string {
     return fs.readFileSync(filePath, 'utf-8');
 }
 
-function Part1() : number
-{
+function Part1() : number {
     let input = readInput();
     let digits = new Array();
 
@@ -31,8 +30,7 @@ function Part1() : number
          return a + b });
 }
 
-function Part2() : number
-{
+function Part2() : number {
     let input = readInput();
     let digits = new Array();
 
@@ -50,7 +48,6 @@ function Part2() : number
         }   
       }
     }
-
 
     return digits.reduce(function(a, b) {
          return a + b });
