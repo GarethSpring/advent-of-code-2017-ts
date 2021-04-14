@@ -44,7 +44,7 @@ function Part2() : number
                 digits.push(parseInt(input.charAt(i)))
            }        
         }
-    else {
+        else {
             if (parseInt(input.charAt(i)) == parseInt(input.charAt(i + halfLength))) {
                 digits.push(parseInt(input.charAt(i)))
         }   
@@ -55,7 +55,6 @@ function Part2() : number
     return digits.reduce(function(a, b) {
          return a + b });
 }
-
 
 console.log('Part 1: ' + Part1());
 console.log('Part 2: ' + Part2()); 

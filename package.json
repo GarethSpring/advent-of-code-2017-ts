@@ -1,0 +1,28 @@
+{
+  "name": "advent-of-code-2017-ts",
+  "version": "1.0.0",
+  "description": "Advent of Code 2017 solutions in TypeScript",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarethSpring/advent-of-code-2017-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarethSpring/advent-of-code-2017-ts/issues"
+  },
+  "homepage": "https://github.com/GarethSpring/advent-of-code-2017-ts#readme"
+}
