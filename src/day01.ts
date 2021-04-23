@@ -5,11 +5,11 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 function readInput() : string {
-    const filePath = path.join(__dirname, '\\input\\input01.txt');
+    const filePath = path.join(__dirname, '/input/input01.txt');
     return fs.readFileSync(filePath, 'utf-8');
 }
 
-function Part1() : number {
+export function Part1() : number {
     let input = readInput();
     let digits = new Array();
 
@@ -30,7 +30,7 @@ function Part1() : number {
          return a + b });
 }
 
-function Part2() : number {
+export function Part2() : number {
     let input = readInput();
     let digits = new Array();
 
