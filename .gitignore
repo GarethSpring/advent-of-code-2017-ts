@@ -1,5 +1,6 @@
 node_modules
-*.js
+src/*.js
+src/tests/*.js
 *.d.ts
 
 # editors
